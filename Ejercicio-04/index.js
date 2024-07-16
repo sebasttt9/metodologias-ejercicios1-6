@@ -1,8 +1,7 @@
 function getBooksByTechnology(books, technology) {
-    // Filtramos los libros que contienen el nombre de la tecnología (ignorando mayúsculas y minúsculas)
+
     let filteredBooks = books.filter(book => book.toLowerCase().includes(technology.toLowerCase()));
   
-    // Retornamos el array de libros filtrados
     return filteredBooks;
   }
   
