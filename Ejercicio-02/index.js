@@ -10,5 +10,4 @@ function countWords(phrase) {
   let phrase = 'La programación web es fundamental para el progreso';
   let numberOfWords = countWords(phrase);
   
-  alert(numberOfWords); // Output: 7
-  
+  alert(numberOfWords); 
